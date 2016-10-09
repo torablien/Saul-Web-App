@@ -1,6 +1,7 @@
 Create a blank C9 workspace 
 
-```git clone https://github.com/IllinoisCogComp/saul.git
+```
+git clone https://github.com/IllinoisCogComp/saul.git
 sudo apt-get update
 sudo apt-get install apt-transport-https
 
@@ -19,3 +20,4 @@ format
 project saulWebapp
 format
 run 8080
+```
