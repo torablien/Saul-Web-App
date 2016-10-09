@@ -4,7 +4,6 @@ Option 1: Start from scratch
 
 ```
 git clone https://github.com/IllinoisCogComp/saul.git
-
 ```
 
 Option 2: Pull from this repository
