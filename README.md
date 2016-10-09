@@ -1,10 +1,23 @@
 Create a blank C9 workspace 
 
-Do not need to clone from Saul git if pulled from this repo
+Option 1: Start from scratch
 
 ```
 git clone https://github.com/IllinoisCogComp/saul.git
 
+```
+
+Option 2: Pull from this repository
+
+```
+git init
+git clean -f -d
+git pull git@github.com:torablien/Saul-Web-App.git
+```
+
+After doing either option, do the following (while still in default workspace):
+
+```
 sudo apt-get update
 sudo apt-get install apt-transport-https
 
@@ -24,3 +37,6 @@ project saulWebapp
 format
 run 8080
 ```
+
+You can find the Saul Visualization Web App at:
+http://saul-YOURUSERNAME.c9users.io/
