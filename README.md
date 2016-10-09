@@ -1,7 +1,10 @@
 Create a blank C9 workspace 
 
+Do not need to clone from Saul git if pulled from this repo
+
 ```
 git clone https://github.com/IllinoisCogComp/saul.git
+
 sudo apt-get update
 sudo apt-get install apt-transport-https
 
